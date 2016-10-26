@@ -1,0 +1,11 @@
+
+
+mysql> create table tbl_stock
+    -> (pk_int_stock_id int auto_increment,
+    -> vchr_name varchar(255),
+    -> int_quantity int,
+    -> int_price int,
+    -> primary key(pk_int_stock_id));
+Query OK, 0 rows affected (0.15 sec)
+
+mysql>
